@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sharadha Shivakumar Personal Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        li{
+        color: white;
+    }
+    
+    </style>
+  
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+       <nav>
+           
+           <ul>
+               <li><a href="#header"><h2>Home</h2></a></li>
+               <li><a href="#About"><h2>About</h2></a></li>
+               <li><a href="#project"><h2>Projects</h2></a></li>
+               <li><a href="#contact"><h2>Contact Me</h2></a></li>
+           </ul>
+           
+       </nav>
+      </div>
+   </div>
+  <!----------------------------------------------ABOUT-------------------------------------------------->
+   <div id="About">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/Aboutwordcloud.png">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-heading">About Me</h1>
+          <p>Hi, I am <b>Sharadha Shivakumar. </b>I am currently pursuing my <b>Masters in Computer Science </b>from <b> George Mason University. 
+          </b> My expected year of graduation is May 2024.
+          I have contributed a few through my learnings in BE undergraduate for one of the projects in the renowned company Cognizant Technology Solutions as a Microsoft CRM developer. I am currently seeking an internship in Summer 2023 for the role of software engineer or data analyst . I am always open to learning and a person who loves challenges. I would like to explore more in the field of computer science and with that knowledge I would like to prove to be a valuable asset to the company I am working.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-links" onclick="opentab('SKILLS')">SKILLS</p>
+          <p class="tab-links" onclick="opentab('EDUCATION')">EDUCATION</p>
+          <p class="tab-links" onclick="opentab('EXPERIENCE')">EXPERIENCE</p>
+        </div>
+        <div class="tab-contents skills" id="SKILLS">
+          <ul>
+            <li><span><b>Proficient Languages</b></span><br>Python, C, HTML, CSS , MySQL</br></li>
+            <li><span><b>Familiar Languages</b></span><br>Java, C++, Dotnet, Javascript, ASP, Entity Framework</br></li>
+            <li><span>Eclipse, Microsoft Visual Studio, IDE</span></li>
+            <li><span>Matplotlib, Numpy, Pandas, seaborn, Scikitlearn, JupyterNotebook, NLTK</span></li>
+            <li><span>Microsoft Dynamics 365: MB900, MB910</span></li>
+          </ul>
+        </div>
+        <div class="tab-contents" id="EDUCATION">
+          <ul>
+            <li><span><b>Current- George Mason University          (Expected Graduation- May 2024)</b></span><br>Masters in Computer Science (MS)</br></li>
+            <li><span><b>BE- Rajalakshmi Engineering College       (Chennai,India 2017-21)</b></span><br>Bachelor of Engineering in Computer Science and Engineering</br><br><b>CGPA</b>- 8.85/10 First class with Distinction Pass</li>
+          </ul>
+        </div>
+        <div class="tab-contents experience" id="EXPERIENCE">
+          <img src="images/cts.jpg" >
+          <ul>
+            <li><span><b>Programmer Analyst Trainee in Cognizant Technology Solution   (Chennai,India 2021-April 2022)</b></span><br>Role - Microsoft CRM Developer for RBS project.</br><br> Responsible for consulting with business analyst in each step to understand the client requirements and developing using Microsoft CRM, prepare documentation and forwarding to testing team.</br>
+              <br>Implemented skills such as Microsoft Dynamics MB-910, ,MB-900,Javascript, C#, web development.</br>
+              <br>Accountable for communicating within other developers in the team and working efficiently.</br>
+              <br>Expereince in ticketing using Jira.</br>
+              <br>Increased the overall productivity of the project by 5%.</br></li>
+          </ul>
+        </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+<!------------------------------------------------PROJECTS----------------------------------------------->
+<div id="project">
+  <div class="container">
+    <div class="row">
+      <h1>PROJECTS</h1>
+      <div class="tab-tit">
+        <p> </p>
+        
+      </div>
+      <div class="tabs">
+        <button class="tablinkss" onclick="openCity(event, 'dm')">DataMiningProject</button>
+        <button class="tablinkss" onclick="openCity(event, 'Paris')">UGProject</button>
+        
+      </div>
+      <div id="dm" class="tabcontentss">
+        <ul>
+          <li><span><b>Sentiment Analysis  &nbsp;&nbsp; &nbsp;&nbsp;            George Mason University- September 2022</b></span><br>Built a sentiment analysis project on a data consisting of positive and negative reviews for a movie.
+            Implemented KNN algorithm to measure correlations derived from sentiment analysis.
+            </br></li>
+          <li><span><b>Drug Activity Prediction     &nbsp;&nbsp;  &nbsp;&nbsp;      George Mason University - September 2022</b></span><br>Developed a predictive model that can determine given a particular compound whether it is active or not.
+            on a imbalanced dataset. Implemented Naïve Bayes Classifier and Decision Tree Algorithm using Scikitlearn library and took the algorithm that predicted the best.
+            Also implemented the concept of ensemble classifier using Adaboost.</br></li>
+          <li><span><b>Iris clustering     &nbsp;&nbsp;  &nbsp;&nbsp;         George Mason University - October 2022</b></span><br>Applied K means algorithm on a dataset to assign each instamce to 3 of the different clusters id's   </br></li>
+          <li><span><b>Image clustering    &nbsp;&nbsp;  &nbsp;&nbsp;          George Mason University - Novembert 2022</b></span><br>Applied K means algorithm on a dataset that consisted of 10000 images of handwritten digits   </br></li>
+          
+        </ul>
+      </div>
+      <div id="Paris" class="tabcontentss">
+        <ul>
+          <h3><b>Rajalakshmi Engineering College      &nbsp;&nbsp;   &nbsp;&nbsp;    Chennai,India</b></h3>
+          <li><span><b>Suspicious Motion Detection          &nbsp;&nbsp;  &nbsp;&nbsp;         January 2021-April 2021</b></span><br>The project was developed to notify the owner when an unauthorized person enters the camera situated region.
+            The owner will be notified through email containing the image of the unknown person.
+            Technologies implemented were Python and Local Binary Pattern Histogram Algorithm</br>
+            </li>
+          <li><span><b>Organic Store       &nbsp;&nbsp;  &nbsp;&nbsp;            October 2019-November 2019</b></span><br>Built an e-commerce website for the purchase of organic products.
+            Technologies implemented are HTML,CSS,Javascript,Bootstrap,Mysql.</br>
+            </li>
+          <li><span><b>Computer Store Database Management System     &nbsp;&nbsp;   &nbsp;&nbsp;       October 2018-November 2018</b></span><br>The purpose of the project is to build an application program to reduce the manual work for managing the Computer, Seller, Customer, Employee applications. It tracks all the details about the Employee,Departments and Company.
+            Implemented python for the frontend and Mysql for the backend.</br>
+               </li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!-------------------------------------------------CONTACT----------------------------------------------->
+  <div id="contact">
+    <div id="container">
+      <div id="row">
+        <div id="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <div class="social-icons">
+            <img src="images/gmail.png" alt="">
+            <a><b>sharadhashivakumar04@gmail.com</b></a>
+            <br></br>
+            <img src="images/linkedin.png" alt="">
+            <a style="color:rgb(249, 245, 245)" href="https://www.linkedin.com/in/sharadha-shivakumar/" title="linkedin">SharadhaShivakumar</a>
+          </div>
+          <br></br>
+          <a href="linkedinresume.pdf" class="cvbtn" download><button>Download CV</button></a>
+         
+        </div>
+        <div class="contact-rights"></div>
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your FullName" required>
+          <input type="email" name="email" placeholder="Your Emailid" required>
+          <textarea name="Message" rows="8" placeholder="Your Message" required></textarea>
+          <button type="submit" class="submitbtn">Send</button>
+        </form>
+        <span id="message">Hello, Please fill the form if you would like to contact me!</span>
+      </div>
+    </div>
+  </div>
+
+  
+
+  
+  <script>
+    var links= document.getElementsByClassName("tab-links");
+    var contlinks= document.getElementsByClassName("tab-contents");
+    function opentab(tabnm)
+    {
+      for(i of links){
+        i.classList.remove("active-links");
+      }
+      for(j of contlinks){
+        j.classList.remove("skills");
+      }
+      event.currentTarget.classList.add("active-links");
+      document.getElementById(tabnm).classList.add("skills");
+    }
+  </script>
+    <script>
+      function openCity(evt, cityName) {
+        var i, tabcontentss, tablinkss;
+        tabcontentss = document.getElementsByClassName("tabcontentss");
+        for (i = 0; i < tabcontentss.length; i++) {
+          tabcontentss[i].style.display = "none";
+        }
+        tablinkss= document.getElementsByClassName("tablinkss");
+        for (i = 0; i < tablinkss.length; i++) {
+          tablinkss[i].className = tablinkss[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+      </script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycby4ZVHXxi6bAMG7gq0TTq2duNjxh1VQx_ZJUfjk7JvdFkCSHx_-ndbrCnVVakvf-8Sw/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const message=document.getElementById("message")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {message.innerHTML="Form submitted sucessfully"
+          setTimeout(function(){
+            message.innerHTML=""
+          },5000)
+          form.reset()
+        })
+          .catch(error => console.error('Error!', error.message))
+      })
+      
+    </script>
+  </body>
+</html>
